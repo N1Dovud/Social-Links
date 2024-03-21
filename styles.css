@@ -34,7 +34,7 @@ body {
     background-color: var(--Off-Black);
 }
 main {
-    max-width:22rem;
+    max-width:25rem;
     display: flex;
     flex-direction: column;
     background-color: var(--Dark-Grey);
@@ -84,7 +84,7 @@ a {
     text-align: center;
     color: var(--White);
     background-color: var(--Grey);
-    width: 100%;
+    width: 20rem;
     border-radius: 7px;
     padding:0.8rem 0;
     font-weight: 600;

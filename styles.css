@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Inter";
+    src: url('assets/fonts/Inter-VariableFont_slnt,wght.ttf');
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif;
+}
+@media screen and (max-width: 280px) {
+    html {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 150px) {
+    html {
+        font-size: 5px;
+    }
+}
+
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--Off-Black);
+}
+main {
+    max-width:22rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Dark-Grey);
+    border-radius: 10px;
+    padding: 2rem;
+    gap: 1.5rem;
+    margin: 1rem;
+}
+.about-author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+img {
+    max-width: 6rem;
+    border-radius: 50%;
+}
+h1 {
+    font-weight: 700;
+    color: var(--White);
+}
+p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--White);
+    text-align: center;
+}
+#yellow-text {
+    color: var(--Green);
+    font-weight: 600;
+}
+.heading {
+    text-align: center;
+    display: grid;
+    gap:0.75rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--White);
+    background-color: var(--Grey);
+    width: 100%;
+    border-radius: 7px;
+    padding:0.8rem 0;
+    font-weight: 600;
+    font-size: 0.875rem;
+    transition:all 0.3s ease;
+}
+a:hover {
+    background-color: var(--Green);
+    color: var(--Off-Black);
+}

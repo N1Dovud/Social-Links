@@ -16,7 +16,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [Git Repo](https://github.com/N1Dovud/Social-Links)
-- Live URL: (https://n1dovud.github.io/Social-Links)
+- Live URL: [Live Site](https://n1dovud.github.io/Social-Links)
 
 
 ### Built with
